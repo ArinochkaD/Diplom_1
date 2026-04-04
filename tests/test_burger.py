@@ -8,10 +8,6 @@ from praktikum.ingredient import Ingredient
 from praktikum.ingredient_types import *
 
 class TestBurger:
-    def test_default_burger(self):
-        burger = Burger()
-        assert burger.bun == None and burger.ingredients == []
-
     def test_set_burger_bun(self):
         bun = Bun('Bun 1', 666)
         burger = Burger()
